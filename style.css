@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* // ``````````````````````````` Header `````````````````````````````````// */
+  body{
+    background-image:url(/Images/Screenshot\ \(10\)\ \(Copy\)\ \(2\).png);
+    background-size: cover;
+  }
+  .navbar-brand {
+    width: 80px;
+  }
+  
+  .navbar-title {
+  color: gray;
+  }
+  .enter{
+    color:black;
+    text-align: center;
+  }
+  .username{
+    background-color:lightgray;
+    border-radius: 8px;
+    
+    box-shadow: 0 3px #b1b5b2
+  }
+  .password{
+    background-color: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 3px #b1b5b2
+  }
+  .password-repeat{
+    background-color: lightgray;
+    border-radius: 8px;
+    
+    box-shadow: 0 3px #b1b5b2
+  }
+  .submit{
+    background-color:#1c913b;
+    color: white;
+    width: 330px;
+    border-radius: 8px;
+    box-shadow: 0 3px #d2d9d4
+  }
+  .submit:hover{
+    transition: 0.8s;
+  }
+  .forgot-password{
+    color:#7c7e80 ;
+  }
+  .form{
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 3px #b1b5b2;
+  }
